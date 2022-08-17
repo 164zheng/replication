@@ -4,7 +4,6 @@ library(tidyverse)
 library(tibble)
 library(modelsummary)
 
-setwd("~/Desktop/Replication/Angrist&Krueger(1991)")
 raw_data <- read_dta("NEW7080.dta")
 
 AK91 <- raw_data %>%
